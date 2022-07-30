@@ -1,61 +1,52 @@
-# ItroublveTSC V6
+# Project status: active[?]
 
-1. Select the checkboxes you like, the features are explained below
-2. Enter a webhook in place of "Webhook Here" in **Stealer** (how to obtain webhook? Scroll down to how to obtain webhook)
-3. Press on "CREATE STEALER FILES"
-4. A file with random name shall be created. It will be saved to ".\output\"
-5. Upload the file to Discord or any other file hosting service (Link must be a direct download)
-6. Copy the link to the file (Right click on the download icon/button & copy link)
-7. Paste the link in place of "Random File Link Here"
-──────────────────────────────────────────────────────────
+PM Exporter can be used to export message history from a Discord channel to a file. It works with direct messages, group messages, and server channels, and supports Discord's dialect of markdown as well as all other rich media features.
 
-***OPTIONAL***
+❔ If you have questions or issues, please refer to the wiki.
 
-8. Go to **Advanced Options**
-9. Add any info you want the exe to have or copy from another file by using "COPY EXE INFO" button
-10. an ICON (Either PNG or ICO format)
-11. Click on "MESSAGEBOX" to add make a message box appear on start (Explaination ||On click scroll down to explanation||)
-12. Go to **File Stealer**
-13. Add a File Path in C# (Explained in the GUI)
-14. Go to **Stealer**
-15. Add Custom File (Must check "Custom File" checkbox), upload file & copy link & paste. As explained above, if your file format is not in the menu then put "|" after link and enter your file type extension
-──────────────────────────────────────────────────────────
-15. Go to **Stealer**
-16. Click on "CREATE STEALER" & select path to save the stealer
-17. Patiently wait for success or error 
-	**Causes**
-	- Build Tools or .NET Framework Developer version not installed.
-	- ICO isn't correctly converted...
-	- If anything other issues, you may open a "Issue", but this being a disconntinued project. I won't do much other then assisting you.
-18. Increase File Size using "File Pumper" (Optional & easy to use)
+💬 If you want to chat, join my Discord server.
 
+Terms of use[?]
+By using this project or its source code, for any purpose and in any shape or form, you grant your implicit agreement to all the following statements:
 
+You condemn Russia and its military aggression against Ukraine
+You recognize that Russia is an occupant that unlawfully invaded a sovereign state
+You support Ukraine's territorial integrity, including its claims over temporarily occupied territories of Crimea and Donbas
+You reject false narratives perpetuated by Russian state propaganda
+To learn more about the war and how you can help, click here. Glory to Ukraine! 🇺🇦
 
-**Checkbox Features**
-- Crash PC (Broken)
-- Auto Remove EXE = Remove EXE after execution
-- Restart Discord = Restart any version of installed Discord
-- Camera Snapshot = Take a picture using webcam
-- Disable Antivirus + Run on Boot = Disable Windows Defender & run on startup of PC
-- Custom File = Run any type of file when the stealer is executed (Can be used to make it not so suspicious)
-- Obfuscate EXE = Make it harder to get source/webhook for the average user 
+Download
+This application comes in two flavors: graphical user interface (GUI) and command line interface (CLI). The following table lists all available download options:
 
+Downloads	Supported OS
+GUI	
+🟢 Stable release (PM Exporter.zip)
+🟠 CI build (PM Exporter.zip)
+Windows 7 or higher
+CLI	
+🟢 Stable release (PM Exporter.CLI.zip
+🟠 CI build (PM Exporter.CLI.zip)
+🐋 Docker (tyrrrz/discordchatexporter)
+📦 AUR (discord-chat-exporter-cli)
+Windows 7 or higher
+macOS 10.13 (High Sierra) or higher
+Linux (multiple distros)
+Note: PM Exporter AUR package is maintained by the community.
 
+Warning: To run PM Exporter on macOS or Linux, you will need to additionally install .NET Runtime v6:
 
-**MessageBox Usage**
-1. Enter Title
-2. Enter Message
-3. Select which buttons to be shown
-4. Select icon to be displayed
-5. Click on preview to check if everything is correct
-6. Click on "OK" to save or X to exit
+.NET Runtime v6 for macOS x64
+.NET Runtime v6 for macOS Arm64
+.NET Runtime v6 for Linux (find the correct download for your distro)
+This is not required if you installed PM Exporter using a package manager, or if you plan to run PM Exporter via Docker.
 
-
-
-**How to obtain webhook?**
-1. Create a server or use existing
-2. Go to "Server Settings"
-3. Go to "Integrations" 
-4. Click on "Create Webhook"
-5. A webhook shall be created, click on Copy Webhook URL. 
-	- In case you want add picture, username, channel to be sent in...
+Features
+Graphical user interface (Windows)
+Command line interface (Windows, Linux, macOS)
+Authentication via both user and bot tokens
+Multiple output formats: HTML (dark/light), TXT, CSV, JSON
+Support for markdown, attachments, embeds, emoji, and other rich media features
+File partitioning, date ranges, message filtering, and other export options
+Self-contained exports that don't require internet
+Screenshots
+channel list rendered output
